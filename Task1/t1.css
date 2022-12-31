@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    background-color:whitesmoke;
+}
+b{
+    font-size: 0.5cm;
+}
+h3{
+    font-family: 'Courier New';
+    text-shadow: 1px 1px red;
+    font-size: 0.7cm;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    font-style: bold;
+    margin-top:50px;
+}
+.container{
+    border: 2px solid black;
+    margin-top: 55px;
+    padding: 30px;
+    width:15cm;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    background-color: rgb(218, 8, 127);
+}
+.box1{
+    padding: 20px;
+    padding-right: 20px;
+}
+#form_tag{
+    background-color: lightgray;
+    width:60%;
+
+}
+#push{
+    background-color:rgb(10, 235, 10);
+    width: 25%;
+}
+#newtask input,button{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    border: 2px solid rgb(205, 233, 48);
+}
+#newtask input:focus{
+    outline: none;
+    border-color: rgb(0, 60, 133);
+}
+#newtask button:focus{
+    outline: none;
+    border-color: rgb(0, 60, 133);
+}
+#tasks{
+    border-radius:6px;
+    width: 87%;
+    position: relative;
+    background-color:white;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;    
+    cursor: pointer;
+    background-color: lightblue;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    display: flex;
+}
+.task span{
+    font-family:'Times New Roman';
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    padding: 2px;
+}
