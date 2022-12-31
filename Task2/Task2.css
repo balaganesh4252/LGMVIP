@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    background-image: url(https://img.freepik.com/free-photo/white-brick-wall-textured-background_53876-63570.jpg?w=996&t=st=1671728536~exp=1671729136~hmac=7a2f4ea6df630e8565d35d8adaeca9825a299a7db57f2c82ce0695c01ceb237a
+ );
+    background-size:fixed;
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(10, 232, 10);
+    font-size: 40px;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    height: 600px;
+    left: 0px;
+}
+.heading {
+    width: 100%;
+    padding-top: 20px;
+  }
+.users{
+    margin-top: 20px;
+}
+#get_users{
+    border-radius: 5px;
+    padding:5px;
+    background-image: linear-gradient(rgb(241, 191, 9),rgb(244, 16, 191));
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+#data {
+  width: 99%;
+  height: 450px;
+  text-align: right;
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+}
+table {
+    color:rgb(228, 9, 244);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    background: transparent;
+  }
+  tr{
+    border: 2px solid rgb(54, 27, 177);
+  }
+  table tr :hover {
+    background-color: rgb(206, 226, 113);
+  }
+  span{
+    visibility: inherit;
+  }
